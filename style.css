@@ -300,3 +300,6 @@ body {
     display: none; 
     transition: 2s;
 }
+#target {
+    opacity: 60%;
+}

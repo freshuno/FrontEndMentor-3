@@ -5,6 +5,7 @@ const cartbutton = document.getElementById("cart");
 var bigpicture = document.getElementById("bigpicture");
 var closebutton = document.getElementById("close");
 const smallPhotos = document.querySelectorAll(".smallphoto");
+var bigPhotoImg = document.getElementById("bigphotoimg");
 var amount = 0;
 bigphoto.addEventListener("click", function(){
      bigpicture.style.display = "block";
@@ -37,5 +38,7 @@ cartbutton.addEventListener("click", function(){
         link.classList.add("active");
     })
  })
+ //ZMIENIANIE PODLGADU ZDJECIA
+ 
 
- //JAK ZROBIC ZEBY ZMIENIALO SIE ZDJECIE GLOWNE KIEDY SIE KLIKNIE MALE?
+

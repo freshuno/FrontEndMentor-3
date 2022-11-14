@@ -113,6 +113,10 @@ body {
 .smallphoto {
     margin-right: 33px;
     opacity: 80%;
+    transition: 0.2s;
+}
+.smallphoto.active {
+    opacity: 40%;
 }
 
 .smallphoto:hover {
@@ -300,6 +304,6 @@ body {
     display: none; 
     transition: 2s;
 }
-#target {
-    opacity: 60%;
+#close:hover{
+    cursor: pointer;
 }

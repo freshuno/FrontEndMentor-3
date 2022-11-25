@@ -34,7 +34,7 @@ smallPhotos.forEach(link => {
         link.classList.add("active");
     })
 })
- //ZMIENIANIE PODLGADU ZDJECIA testt
+ //ZMIENIANIE PODLGADU ZDJECIA testts
 var firstSmallPhoto = smallPhotosClass[0];
 var secondSmallPhoto = smallPhotosClass[1];
 var thirdSmallPhoto = smallPhotosClass[2];

@@ -87,6 +87,19 @@ body {
     margin-left: 20px;
 }
 
+#carttextbottomItem{
+    width: 350px;
+    height: 60px;
+}
+#emptyCart{
+    text-align: center;
+    top: 80%;
+    transform: translateY(150%);
+    display: none;
+    opacity: 70%;
+    font-weight: 700;
+}
+
 #container {
     height: 75vh;
     width: 70vw;
